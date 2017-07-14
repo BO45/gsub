@@ -191,6 +191,7 @@ dotnet publish -c release -r osx.10.11-x64 -o ~/gsubpub/
   * merge --commit [hash]
   * split --prefix dir --to repo [--commit [hash]]
   * add --commit [hash]
+  * diff between local and remote
 
 
   
