@@ -187,7 +187,7 @@ dotnet publish -c release -r osx.10.11-x64 -o ~/gsubpub/
 
 ## ToDo ##
 
-  * Rename aliases. This can manually be done by editing the configuration file without any side-effects.
+  * ~~Rename aliases. This can manually be done by editing the configuration file without any side-effects.~~
   * Merge operations from specific commits
   * Automatically split out prefixes to branches and commit
   
