@@ -10,6 +10,7 @@ A smart git-subtree tool that just works.
 - [Parameters](#parameters)
     - [add](#add)
     - [remove](#remove)
+    - [rename](#rename)
     - [list](#list)
     - [pull](#pull)
     - [push](#push)
@@ -35,6 +36,8 @@ A smart git-subtree tool that just works.
   pull       Pulls from a subtree alias
 
   push       Pushes to a subtree alias
+
+  rename     Renames an alias
 ```
 
 ## Parameters ##
@@ -73,6 +76,20 @@ Normal scenario:
 ```
 
 Removes an alias from the configuration file.
+
+### rename ###
+
+```
+USAGE:
+Normal scenario:
+  gsub rename --from remote1 --to remote2
+
+  -f, --from       Required. Original alias name
+
+  -t, --to         Required. New alias name
+```
+
+Renames an alias.
 
 ### list ###
 
