@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "gsub": {
+      "commandName": "Project",
+      "commandLineArgs": "remote"
+    }
+  }
+}
