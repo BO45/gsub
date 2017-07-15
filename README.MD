@@ -2,6 +2,7 @@
 
 A smart git-subtree tool that just works.
 
+Gsub enhances git-subtree by storing a configuration file containing alias, prefix and remote.
 
 <!-- TOC -->
 
